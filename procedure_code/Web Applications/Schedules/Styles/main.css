@@ -1,0 +1,26 @@
+#row {
+    font-size: 20px;
+}
+
+.timer, .timer-done, .timer-loop {
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .jst-hours {
+    float: left;
+  }
+  .jst-minutes {
+    float: left;
+  }
+  .jst-seconds {
+    float: left;
+  }
+  .jst-clearDiv {
+    clear: both;
+  }
+  .jst-timeout {
+    color: red;
+  }

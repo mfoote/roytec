@@ -1,0 +1,16 @@
+.btn-xl {
+    padding: 20px 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+#next {
+   margin-top: 10px;
+   font-size: 30px;
+   width: 142px;
+   height: 80px;
+   margin-left: 80px;
+}
+

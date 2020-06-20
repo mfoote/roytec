@@ -1,0 +1,19 @@
+.jst-hours {
+    float: left;
+    font-size:360px;
+  }
+  .jst-minutes {
+    float: left;
+    font-size:360px;
+  }
+  .jst-seconds {
+    float: left;
+    font-size:360px;
+  }
+  .jst-clearDiv {
+    clear: both;
+  }
+
+table{
+font-size:30px;
+}

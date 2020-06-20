@@ -1,0 +1,33 @@
+h4{
+    font-size:1.9vw;
+}
+
+.btn-xl{
+    font-size:1.5vw;
+}
+
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .center{
+        margin-top:125px;
+    }
+
+    canvas
+    {
+        width:auto;
+        height:auto;
+    }
+}
+
+@media (min-width:1281px) { 
+
+    .center{
+        margin-top:250px;
+    }
+
+    canvas{
+        width:auto;
+        height:auto;
+    }
+ }
