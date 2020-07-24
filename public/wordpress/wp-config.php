@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'usc' );
 
 /** MySQL database username */
-define( 'DB_USER', 'usc' );
+define( 'DB_USER', 'wp_usc' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '7ZP56vJhMX1vLnIQ' );
+define( 'DB_PASSWORD', 'gMuLy0MFcM5RYvg5' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -88,3 +88,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
+//CREATE USER 'wp_usc'@'localhost' IDENTIFIED WITH mysql_native_password AS 'gMuLy0MFcM5RYvg5';GRANT USAGE ON *.* TO 'wp_usc'@'localhost' REQUIRE NONE WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;CREATE DATABASE IF NOT EXISTS `wp_usc`;GRANT ALL PRIVILEGES ON `wp\_usc`.* TO 'wp_usc'@'localhost'
